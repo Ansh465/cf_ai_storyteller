@@ -1,0 +1,19 @@
+name = "cf_ai_storyteller"
+main = "src/index.ts"
+compatibility_date = "2024-02-08"
+
+[ai]
+binding = "AI"
+
+[[durable_objects.bindings]]
+name = "STORY_DO"
+class_name = "StoryDO"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["StoryDO"]
+
+[[workflows]]
+name = "story-workflow"
+binding = "STORY_WORKFLOW"
+class_name = "LevelUpWorkflow"
