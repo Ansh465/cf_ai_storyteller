@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cloudflare AI Storyteller
 
 An infinite text adventure game powered by Cloudflare Workers, Workers AI (Llama 3.3), Durable Objects, and Workflows.
@@ -54,3 +55,6 @@ npx wrangler deploy
 ## Disclaimer
 
 This is a demo application for the Cloudflare AI assignment.
+=======
+# cf_ai_storyteller
+>>>>>>> 1cdad83dbad8014945863148a3ba4f503641df5f
